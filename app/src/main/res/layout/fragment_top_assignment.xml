@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/assignment_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Top bit" />
+
+    <TextView
+        android:id="@+id/explanationtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/assignment_explanation" />
+
+    <ImageButton
+        android:id="@+id/button_play"
+        android:layout_height="70dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:onClick="playSound"
+        android:src="@drawable/ic_play_button" />
+
+</LinearLayout>
